@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.51">
     <root id="1">
       <DateStyle>ymd</DateStyle>
-      <IntrospectionStateNumber>1156</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1284</IntrospectionStateNumber>
       <ServerVersion>16.1</ServerVersion>
       <StartupTime>1704773546</StartupTime>
       <TimeZones>true ACDT
@@ -1399,7 +1399,7 @@ false posixrules
 13229||10|C|G
 13229||-9223372036854775808|U|G
 13229||10|U|G</Grants>
-      <IntrospectionStateNumber>1156</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1284</IntrospectionStateNumber>
       <ObjectId>16412</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4835,23 +4835,23 @@ false posixrules
     <schema id="267" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>1156</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2024-01-09.15:50:01</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>1284</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2024-01-09.17:07:13</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>523</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="268" parent="267" name="student_sequence">
       <DasType>bigint|0s</DasType>
-      <ObjectId>16909</ObjectId>
+      <ObjectId>17112</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>1151</StateNumber>
+      <StateNumber>1281</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <table id="269" parent="267" name="student">
-      <ObjectId>16910</ObjectId>
-      <StateNumber>1152</StateNumber>
+      <ObjectId>17113</ObjectId>
+      <StateNumber>1282</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -4859,42 +4859,42 @@ false posixrules
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>1152</StateNumber>
+      <StateNumber>1282</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="271" parent="269" name="dob">
       <DasType>date|0s</DasType>
       <Position>2</Position>
-      <StateNumber>1152</StateNumber>
+      <StateNumber>1282</StateNumber>
       <TypeId>1082</TypeId>
     </column>
     <column id="272" parent="269" name="email">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
-      <StateNumber>1152</StateNumber>
+      <StateNumber>1282</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="273" parent="269" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
-      <StateNumber>1152</StateNumber>
+      <StateNumber>1282</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="274" parent="269" name="student_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16915</ObjectId>
+      <ObjectId>17118</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1152</StateNumber>
+      <StateNumber>1282</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="275" parent="269" name="student_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16916</ObjectId>
+      <ObjectId>17119</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1152</StateNumber>
-      <UnderlyingIndexId>16915</UnderlyingIndexId>
+      <StateNumber>1282</StateNumber>
+      <UnderlyingIndexId>17118</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>

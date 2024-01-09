@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d67f127-1757-4a0d-924f-be78a4f4e0e8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ffe34cd2-20ff-46e6-8eec-aa883e2f4471.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ffe34cd2-20ff-46e6-8eec-aa883e2f4471.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ffe34cd2-20ff-46e6-8eec-aa883e2f4471/storage_v2/_src_/database/dep11_amigo_student.kSWDxw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ffe34cd2-20ff-46e6-8eec-aa883e2f4471/storage_v2/_src_/database/dep11_amigo_student.kSWDxw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/dep11/sms/api/StudentHttpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep11/sms/api/StudentHttpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/dep11/sms/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep11/sms/repository/StudentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/dep11/sms/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep11/sms/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704783478403</updated>
-      <workItem from="1704783479623" duration="13085000" />
+      <workItem from="1704783479623" duration="16996000" />
     </task>
     <servers />
   </component>
