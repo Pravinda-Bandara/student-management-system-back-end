@@ -20,23 +20,24 @@ public class StudentHttpController {
         this.studentService = studentService;
     }
 
-    @GetMapping
+    @GetMapping(produces = "application/json")
     public List<Student> getStudents(){
         return studentService.getStudents();
     }
 
-    @PostMapping
+    @PostMapping(consumes = "application/json",produces = "application/json")
     @ResponseStatus(HttpStatus.CREATED)
     public void registerNewStudent(@RequestBody Student student){
         studentService.addNewStudent(student);
     }
 
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping(path = "{studentId}")
     public void deleteStudent(@PathVariable("studentId") Long studentId){
         studentService.deleteStudent(studentId);
     }
-
-    @PutMapping(path = "{studentId}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @PatchMapping(path = "{studentId}",consumes = "application/json")
     public void updateStudent(  @PathVariable("studentId") Long studentId,
                                 @RequestParam(required = false) String name,
                                 @RequestParam(required = false) String email){
